@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      top: 0;
+      position: absolute;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      margin-top: -25px;
+      margin-left: 0;
+    }
+  
+    header {
+      text-align: center;
+      font-size: 1.1em;
+    }
+  
+    .preparacao,
+    .ingredientes,
+    .instrucoes,
+    .nutricional {
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+  
+    .ingredientes > div {
+      margin-bottom: 15px;
+    }
+  
+    .nutricional table {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2,
+    h3 {
+      font-size: 1.2em;
+    }
+  
+    .preparacao li {
+      padding-left: 20px;
+    }
+  
+    .preparacao li::before {
+      left: 0;
+    }
+  
+    .lista-ingredientes li {
+      padding-left: 20px;
+    }
+  
+    .lista-ingredientes li::before {
+      top: 2px;
+    }
+  
+    .instrucoes ol {
+      margin-left: 15px;
+    }
+  
+    .nutricional th,
+    .nutricional td {
+      padding: 8px;
+    }
+  }

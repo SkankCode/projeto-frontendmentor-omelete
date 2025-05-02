@@ -1,0 +1,184 @@
+
+body {
+    margin: 0%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Outfit-VariableFont_wght", Outfit;
+    align-items: flex-start;
+    background-color: rgb(243, 217, 175);
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+img { 
+    margin: 0%;
+    height: 40vh;
+    width: 100%;
+    position: center;
+    border-radius: 15px;
+    margin-left: 0px;
+    
+}
+
+header { 
+    text-align: left;
+    margin-bottom: 20px;
+    color: hsl(24, 5%, 18%);
+}
+
+
+.container{
+    background-color: #f3f1d2;
+    position: center;
+    color: hsl(24, 5%, 18%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.preparacao h2 { 
+    color: hsl(332, 51%, 32%);
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.preparacao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.preparacao li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+    position: relative;
+}
+
+.preparacao li::before {
+    content: "\2022";
+    color:hsl(332, 51%, 32%);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 1.5em;
+    display: inline-block;
+    text-align: center;
+}
+.preparacao {
+    color: hsl(30, 10%, 34%);
+    padding: 15px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    background-color: rgba(206, 138, 138, 0.1);
+    border-radius: 5px;
+}
+
+
+.paragrafo {
+    color: hsl(332, 51%, 32%);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+.ingredientes h3{ 
+    color: hsl(14, 45%, 36%);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.lista-ingredientes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .lista-ingredientes li {
+    padding-left: 25px;
+    margin-bottom: 8px;
+    color: hsl(30, 10%, 34%);
+    position: relative;
+  }
+  
+  .lista-ingredientes li::before {
+    content: "\2022";
+    color: hsl(14, 45%, 36%);
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 1em;
+    display: inline-block;
+    text-align: center;
+  }
+
+.instrucoes h3 { 
+    color: hsl(14, 45%, 36%);
+}
+
+.instrucoes {
+    color: hsl(30, 10%, 34%);
+    padding-left: 0px;
+
+}
+
+.instrucoes ol {
+    color: hsl(30, 10%, 34%);
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.instrucoes ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 1.1em;
+    
+    
+}
+
+.nutricional h3{
+    color: hsl(14, 45%, 36%);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.nutricional {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+}
+
+.nutricional table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutricional th, .nutricional td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(243, 217, 175);
+    text-align: left;
+}
+
+.nutricional .valor-nutricional {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+hr {
+    background-color: rgb(243, 217, 175);
+    height: 1px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
